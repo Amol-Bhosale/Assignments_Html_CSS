@@ -1,45 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-13</title>
     <style>
-        .header{
-            height: 100px;
-           background: #4796e0;
-        }
-        ul li{
-            display: inline-block;
-            margin:  20px 40px;
-            color: white;
-            text-align: center;
-            
+      .header {
+        height: 80px;
+        background: #4796e0;
+      }
+      ul li {
+        display: inline-block;
+        margin: 10px 50px;
+        color: white;
+        text-align: center;
+      }
 
-        }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .search {
+        float: right;
+        margin-top: 20px;
+      }
+      .header1 {
+        height: 80px;
+        background: #4796e0;
+      }
+      .search1 {
+        width: 600px;
+        height: 40px;
+      }
+      .box {
+        height: 300px;
+        width: 250px;
+        background-color: black;
+        color: white;
+        line-height: 30px;
+      }
+      .nav1 {
+        padding-top: 50px !important;
+      }
+      .box2 {
+        height: 250px;
+        width: 300px;
+        text-align: left;
+        font-size: 30px;
+        color: #4796e0;
+        margin: 0px 100px;
+      }
+      .main {
+        display: flex;
+      }
+      .search-icon{
+        height: 15px;
+        width: 15px;
         
-        a{
-            text-decoration: none;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-    <Section class="header">
-        <ul   type="none">
-            <li><h2><b>CodingLab</b></h2></li>
-            <li><a href="#" >Home</a></li>
-            <li><a href="#" >Servies </a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li class="search">
-                <input  type="search" placeholder="Search" name="search" >
-                <button>Search</button>
 
-                </li>
+      }
+    </style>
+  </head>
+  <body>
+    <section class="header">
+      <ul type="none">
+        <li>
+          <h2><b>CodingLab</b></h2>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Servies </a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li class="search">
+          <!-- <input  type="search" placeholder="Search" name="search" > -->
+          <li><button><img src="./searchIcon.jpg" class="search-icon" /></button></li>
+        </li>
+      </ul>
+    </section>
+    <br /><br />
+    <section class="header1">
+      <ul>
+        <li>
+          <h2><b>CodingLab</b></h2>
+        </li>
+        
+        <li>
+            
+          <input
+            type="search"
+             
+            placeholder="Search here..."
+            class="search1"
+            
+           
+          />
+        </li>
+        
+      </ul>
+    </section>
+    <br />
+    <section class="main">
+      <section class="box">
+        <ul class="nav1" type="none">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Servies </a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact us</a></li>
         </ul>
-    </section>   
-    
-</body>
+      </section>
+      <section class="box2">
+        <p><b>Responsive</b></p>
+        <p><b>Navigation Bar</b></p>
+        <p style="background-color: #4796e0; color: white">
+          <b>Using HTML and CSS</b>
+        </p>
+      </section>
+    </section>
+  </body>
 </html>
