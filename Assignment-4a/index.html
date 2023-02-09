@@ -11,45 +11,55 @@
         }
         table{
             border: 1px solid black;
+            background-color: lightgray;
+        }
+        
+        .border{
+            border: 1px solid black   
+        }
+        .btn{
+            position: relative;
+            left: 100px;
         }
     </style>
 </head>
 <body>
     <h3>Registration Form</h3>
+    <div class="container">
     <form>
         <table>
             <tr>
-                <td><b>Enter your first name</b></td>
-                <td><input type="text" placeholder="Enter your first Name"></td>
+                <td  class="border"><b>Enter your first name</b></td>
+                <td class="border"><input type="text" placeholder="Enter your first Name"></td>
             </tr>
             <tr>
-                <td><b>Enter your Last name</b></td>
-                <td><input type="text" ></td>
+                <td class="border"><b>Enter your Last name</b></td>
+                <td class="border"><input type="text" ></td>
             </tr>
             <tr>
-                <td><b>Enter your password</b></td>
-                <td><input type="password" ></td>
+                <td class="border"><b>Enter your password</b></td>
+                <td class="border"><input type="password" ></td>
+            </tr> 
+            <tr>
+                <td class="border"><b>ReEnter your password</b></td>
+                <td class="border"><input type="password" ></td>
             </tr>
             <tr>
-                <td><b>ReEnter your password</b></td>
-                <td><input type="password" ></td>
-            </tr>
-            <tr>
-                <td><b>Enter your email</b></td>
-                <td><input type="email" ></td>
+                <td class="border"><b>Enter your email</b></td>
+                <td class="border"> <input type="email" ></td>
             </tr>
              <tr>
-                <td><b>Enter your mobile</b></td>
-                <td><input type="mobile" ></td>
+                <td class="border"><b>Enter your mobile</b></td>
+                <td class="border"><input type="mobile" ></td>
             </tr>
             <tr>
-                <td><b>Enter your address</b></td>
-                <td><textarea rows="5"></textarea></td>
+                <td class="border"><b>Enter your address</b></td>
+                <td class="border"><textarea rows="5"></textarea></td>
             </tr>
             <tr>
-                <td><b>Select your gender</b></td>
-                <td>
-                    <label>
+                <td class="border"><b>Select your gender</b></td>
+                <td class="border">
+                    <label> 
                         <input type="radio">male
                     </label>
                     <label>
@@ -58,8 +68,8 @@
                 </td>
             </tr>
              <tr>
-                <td><b>Select your hobbies</b></td>
-                <td>
+                <td class="border" ><b>Select your hobbies</b></td>
+                <td class="border">
                     <label>
                         <input type="checkbox">hobby1
                     </label>
@@ -72,12 +82,12 @@
                 </td>
             </tr>
             <tr>
-                <td><b>Select your DOB</b></td>
-                <td><input type="date"></td>
+                <td class="border"><b>Select your DOB</b></td>
+                <td class="border"><input type="date"></td>
             </tr>
             <tr>
-                <td><b>Select your country</b></td>
-                <td>
+                <td class="border"><b>Select your country</b></td>
+                <td class="border">
                     <select name= "Select your country">
                         <option value="India">India</option>
                         <option value="UK">UK</option>
@@ -87,16 +97,17 @@
                 </td>
             </tr>
             <tr>
-                <td><b>Upload your pic</b></td>
+                <td class="border"><b>Upload your pic</b></td>
                 
-                <td><input type="file"/></td>
+                <td class="border"><input type="file"/></td>
             </tr>
             <tr>
-               <td> <button>Save My Dada</button><button>Reset Data</button></td>
+               <td class="btn"> <button>Save My Data</button><button>Reset Data</button></td>
             </tr>
         </table>
 
     </form>
+</div>
     
 </body>
 </html>
